@@ -3,26 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="desktop.css">
     <title>Tom's Jazz School</title>
 </head>
 <body>
-     <p class="mover"><img src="images/logo.svg" alt="logo-tom"></p>
     <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Cursos</a></li>
-            <li><a href="#Eventos">Eventos</a></li>
-            <li><a href="#">Contato</a></li>
-            <li><input type="button" value="SE INSCREVA"></li>
-        </ul>
+        <p class="mover"><img src="images/logo.svg" alt="logo-tom"></p>
+            <a href="#">Inicio</a>
+            <a href="#">Cursos</a>
+            <br>
+            <a href="#Eventos">Eventos</a>
+            <a href="#">Contato</a>
+            
+            <p><input type="button" value="SE INSCREVA"></p>
         
     </nav>
     <header>
          <p class="logo"><img src="images/hero-img.svg" alt="logo-hero"></p>
         <div id="centralizar">
-            <h1>Crie algo <div class="laranja">impactante</div> com  música</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolores autem, molestiae eaque nostrum iusto officia aliquam ut eveniet voluptatibus rerum quaerat laudantium ratione nisi neque dicta corrupti perspiciatis eius.</p>
+            <h1> Crie algo<div class="laranja">impactante<img src="images/three-dashes.svg" alt="img-brilhante"></div>com  música</h1>
+            <p class="msg">Lorem, ipsum dolor <br> Delectus hic maxime <br>et rerum, ducimus <br> sit amet <br>consectetur adipisicing elit.<br> molestias enim  </p>
             <input type="button" value="COMECE AGORA">
             <img src="images/arrow-curve.svg" alt="logo-seta">
         </div>
@@ -32,53 +33,59 @@
     <br>
     <main>
         <section id="Eventos">
-            <p> 
                 <div class="card">
                 <img src="images/piano.png" alt="logo-piano">
                     <H2>Plano popular</H2>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi repellendus molestias sint asperiores! Ipsam deserunt blanditiis, quibusdam consequuntur corrupti nostrum veritatis, culpa porro iure officia minima aperiam libero ratione minus.
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi repellendus molestias 
+                    </p>
+                    <img src="images/arrow-right.svg" alt="seta">
                 </div>
-            </p>
-            <p>
+           
+           
                 <div class="card2">
                     <img src="images/clef.png" alt="logo-teoriamusical">
                     <H2>Teoria musical</H2>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi repellendus molestias sint asperiores! Ipsam deserunt blanditiis, quibusdam consequuntur corrupti nostrum veritatis, culpa porro iure officia minima aperiam libero ratione minus.
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi repellendus molestias </p>
+                    <img src="images/arrow-right.svg" alt="seta">
                 </div>
-            </p>
-            <p>
+            
+            
                 <div class="card">
                     <img src="images/sax.png" alt="logo-saxfone">
                     <H2>Sax alto</H2>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi repellendus molestias sint asperiores! Ipsam deserunt blanditiis, quibusdam consequuntur corrupti nostrum veritatis, culpa porro iure officia minima aperiam libero ratione minus.
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi repellendus molestias </p>
+                    <img src="images/arrow-right.svg" alt="seta">
                 </div>
-            </p>
-            <p>
                 <div class="card2">
                     <img src="images/drums.png" alt="logo-bateria">
                     <H2>Bateria</H2>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi repellendus molestias sint asperiores! Ipsam deserunt blanditiis, quibusdam consequuntur corrupti nostrum veritatis, culpa porro iure officia minima aperiam libero ratione minus.
-           </section>     </div>
-       </main>     </p>
-       
-            <p class="conhecer">E vários outros!</p>
-            <input type="button" value="CONHECER CURSOS">
-        
-    
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi repellendus molestias  </p>
+                    <img src="images/arrow-right.svg" alt="seta" >
+                </div>
+</section> 
+</main> 
+<section id="curso">
+    <p>E <span>vários</span> outros!</p>
+    <input type="button" value="CONHECER CURSOS">
+</section>
+   
     <footer>
-        logo
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias enim laboriosam, totam quibusdam voluptate aut dolor quas neque laborum nisi perspiciatis ipsa cumque vero porro id blanditiis illum debitis veritatis!
-
-        <div>
+        <img src="images/logo.svg" alt="logo">
+        <p class="msf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, perspiciatis alias voluptates amet necessitatibus eum quam quos </p>
+        <p class="mn">
             <a href="#">Inicio</a>
             <a href="#">Cursos</a>
-            <a href="#">Eventos</a>
+            <a href="#Eventos">Eventos</a>
             <a href="#">Contato</a>
+        </p>
+        <div class="meiof">
+            <p>
+            <label for="email">Receba materiais gratuitos no seu email</label>
+            <input type="email" name="em" id="emai-l" autocomplete="on">
+            </p>
+            <p class="butf"><input type="button" value="QUERO RECEBER"></p>
         </div>
-        Receba materiais gratuitos no seu e-mail
-       <input type="text" name="ema" id="email">
-        
-       <input type="button" value="QUERO RECEBER">
+        <br>
     </footer>
 </body>
 </html>

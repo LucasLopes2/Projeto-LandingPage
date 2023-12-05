@@ -1,1 +1,182 @@
 @charset "utf-8";
+body{
+    background-color: #FFE9D4;
+}
+/*CONFIGURACAO HEADER MENU*/
+p.mover > img{
+    width: 100px;
+    padding: 15px;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-size: 1.2em;
+    
+}
+nav a:hover{
+    text-decoration: underline;
+}
+nav{
+    text-align: center;
+}
+nav input{
+    background-color:#ED4D1B ;
+    border-radius: 3px;
+    padding: 12px;
+    font-weight: bolder;
+    width: 50%;
+    text-align: center;
+    box-shadow: 2px 5px 10px black;
+    transition-duration: 1s;
+}
+nav input:hover{
+    background-color:black ;
+    color: white;
+}
+p.logo img{
+    width: 420px;
+
+}
+div#centralizar h1{
+    text-align: justify;
+    font-size: 2.8em;
+    padding-left:10px ;
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.laranja{
+    color: #ED4D1B;
+}
+div#centralizar > p.msg{
+    text-align: justify;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+div#centralizar input{
+    background-color:#ED4D1B ;
+    border-radius: 3px;
+    padding: 12px;
+    font-weight: bolder;
+    width: 50%;
+    box-shadow: 2px 5px 10px black;
+    transition-duration: 1s;
+}
+div#centralizar input:hover{
+    background-color: black;
+    color: white;
+}
+div#centralizar > img{
+    padding: 10px;
+    position: relative;
+    top:100px;
+    right: 50px;
+}
+/*CONFIGURACAO HEADER MENU*/
+/*configuracao do main*/
+main{
+    padding-top: 20px;
+}
+section#Eventos{
+   text-align: center;
+   padding: 40px;
+   
+   
+}
+div.card{
+    position: relative;
+    left: 20%;
+    background-color: #ED4D1B;
+    width: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.712);
+}
+div.card2{
+    background-color:#FF9A3C ;
+    width: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.712);
+}
+div.card , .card2{
+    margin-bottom:20px ;
+}
+div.card , .card2 h2{
+    text-align: center;
+    font-weight: bolder;
+}
+div.card, .card2 p{
+    font-weight: bolder;
+    
+}
+section#curso{
+    height: 200px;
+    text-align: center;
+}
+section#curso p {
+    font-size: 1.6em;
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+section#curso span{
+    color: #ED4D1B;
+}
+section#curso input{
+    background-color:#ED4D1B ;
+    border-radius: 3px;
+    padding: 12px;
+    font-weight: bolder;
+    width: 50%;
+    box-shadow: 2px 5px 10px black;
+    transition-duration: 1s;
+}
+section#curso input:hover{
+    background-color: black;
+    color: white;
+}
+/*configuracao do main*/
+/*config do FOOTER*/
+footer{
+    height: 200px;
+    padding: 20px;
+}
+footer img{
+    padding-bottom: 12px;
+}
+footer .msf{
+    font-weight: bold;
+
+}
+.mn > a{
+    display: flex;
+    padding: 10px;
+    color: rgb(85, 84, 84);
+    text-decoration: none;
+}
+.mn > a:hover{
+    text-decoration: underline;
+}
+div.meiof{
+    text-align: center;
+
+}
+div.meiof p{
+    font-size: 1.3em;
+}
+.butf input{
+    background-color:#ED4D1B ;
+    border-radius: 3px;
+    padding: 12px;
+    font-weight: bolder;
+    width: 50%;
+    box-shadow: 2px 5px 10px black;
+    transition-duration: 1s;
+    margin-top:10px ;
+}
+.butf > input:hover{
+    background-color: black;
+    color: white;
+}
